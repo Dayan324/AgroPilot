@@ -12,9 +12,9 @@ Desarrollar un sistema basado en inteligencia artificial que permita a los agric
 
 ## Estructura del proyecto
 
-data: archivos del proyecto
-notebooks: análisis y modelado
-src: archivos necesarios para despliegue
+- data/: archivos del proyecto  
+- notebooks/: análisis y modelado  
+- src/: archivos necesarios para despliegue  
 
 ## Estado
 
