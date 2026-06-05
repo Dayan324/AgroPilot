@@ -1,3 +1,4 @@
+================Gitignore AgroPilot================
 # Python
 __pycache__/
 *.pyc
@@ -22,6 +23,16 @@ Thumbs.db
 # Archivos temporales
 *.tmp
 *.log
+*.zip
+*.7z
+
+# Datos crudos
+data/raw/**
+!data/raw/.gitkeep
+data/raw/dhime/**
+!data/raw/dhime/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
 
 # Modelos entrenados
 *.h5
@@ -30,3 +41,8 @@ Thumbs.db
 *.pth
 *.onnxgoogle-chrome-stable_current_amd64.deb
 google-chrome-stable_current_amd64.deb
+
+# Archivos de configuración
+*.conda
+conda-meta/
+
